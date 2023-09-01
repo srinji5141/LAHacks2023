@@ -1,4 +1,3 @@
-#Cohere Company Challenge
 import cohere
 from cohere.responses.classify import Example
 
@@ -25,7 +24,6 @@ examples=[
   Example("What is stock lending and is it safe?", "Not Company"),
   Example("Procter & Gamble beats on earnings. Here’s what the experts have to say", "Company"),
   Example("What to watch for in the markets in the week ahead: Monster tech earnings, then sell in May?", "Not Company")
-
 ]
 
 inputs=[
