@@ -46,3 +46,5 @@ for i, classifications in enumerate(response.classifications):
         output.append(inputs[i])
 
 print(output)
+
+# The above code trains Cohere's NLP Classification model to identify whether webscraped article titles are about company stocks or not.
